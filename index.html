@@ -12,6 +12,12 @@
 <div ng-view></div>
 <script>
 var app=angular.module("Myapp",["ngRoute"]);
+  app.controller("ca1",function($scope){
+    $scope.a1=false;
+    $scope.a2=false;
+    $scope.a3=false;
+    $scope.a4=false;
+  });
 app.config(function($routeProvider){
 $routeProvider
 .when("/",{
