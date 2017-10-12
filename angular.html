@@ -1,0 +1,51 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<title>Find your home!</title>
+<style></style>
+<script></script>
+</head>
+<body>
+<div style="text-align:center;font-family:Arial;border:1.5px solid red;width:100%;"><b>Find Your Home!</b></div>
+<div ng-app="Myapp">
+<div ng-view></div>
+<script>
+var app=angular.module("Myapp",["ngRoute"]);
+app.config(function($routeProvider){
+$routeProvider
+.when("/",{
+templateUrl:"1.htm"
+})
+.when("/2",{
+templateUrl:"2.htm"
+})
+.when("/3",{
+templateUrl:"3.htm"
+})
+.when("/4",{
+templateUrl:"4.htm"
+})
+.when("/5",{
+templateUrl:"5.htm"
+})
+.when("/6",{
+templateUrl:"6.htm"
+})
+.when("/7",{
+templateUrl:"7.htm"
+})
+.when("/8",{
+templateUrl:"8.htm"
+})
+.when("/9",{
+templateUrl:"9.htm"
+})
+.when("/10",{
+templateUrl:"10.htm"
+});
+});
+</script>
+</div>
+</body>
+</html>
