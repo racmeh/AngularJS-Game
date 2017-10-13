@@ -27,6 +27,9 @@ var app=angular.module("Myapp",["ngRoute"]);
        $scope.num=100;
      },5000);
   });
+  app.controller("cd1",function($scope){
+    $scope.scra="LIREYAT";
+  });
 app.config(function($routeProvider){
 $routeProvider
 .when("/",{
