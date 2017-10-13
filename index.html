@@ -21,6 +21,12 @@ var app=angular.module("Myapp",["ngRoute"]);
     app.controller("cb1",function($scope){
     $scope.colo="blue";
   });
+   app.controller("cc1",function($scope,$timeout){
+    $scope.num=0;
+     $timeout(function(){
+       $scope.num=100;
+     },5000);
+  });
 app.config(function($routeProvider){
 $routeProvider
 .when("/",{
