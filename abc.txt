@@ -1,0 +1,7 @@
+<div ng-controller="cj1"><p>10. Find <a ng-click="d=d+1" style="text-decoration:none;">Home</p>
+<img src="" width="40" height="40" alt="Image">
+<br/>
+<p>Your Home <span style="color:blue;">here</span>!</p>
+<div ng-show="d>=1">
+<div style="color:green;margin-left:80px;">Correct!</div><br/>
+<div style="text-align:center;margin-left:82px;"><a href="#!11" style="text-decoration:none;"><div style="width:55px;height:18px;background-color:red;color:white;border-radius:4px;">FINISH</div></a></div></div></div>
