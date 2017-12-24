@@ -1,2 +1,2 @@
 # angular-js
-A logical game made with angular js
+A logical puzzle game made with angular js
