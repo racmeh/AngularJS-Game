@@ -1,2 +1,2 @@
 # angular-js
-An innovative game made with angular js
+An logical game made with angular js
