@@ -1,4 +1,4 @@
 # angular-js
-A logical puzzle game made with angular js
+A logical puzzle game made with AngularJS
 
-Technologies using: HTML, CSS, Angular js
+Technologies using: HTML, CSS, AngularJS
